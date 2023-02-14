@@ -1,9 +1,9 @@
 import { Telegraf, Markup } from 'telegraf'
 import fetch from 'node-fetch'
 
-const bot = new Telegraf('5882776495:AAHHSvcixFN5NtT2sPvNSjtotsmaRNAX1yk') // замените на свой токен
+const bot = new Telegraf('5882776495:AAHHSvcixFN5NtT2sPvNSjtotsmaRNAX1yk')
 const weatherApiUrl = 'https://api.openweathermap.org/data/2.5/weather'
-const weatherApiKey = '3df8a5d919ce77e18c77dd64b5afbb2b' // замените на свой API-ключ
+const weatherApiKey = '3df8a5d919ce77e18c77dd64b5afbb2b'
 
 bot.start((ctx) => {
 	ctx.reply('Привет! Я бот, который сообщит вам погоду.')
