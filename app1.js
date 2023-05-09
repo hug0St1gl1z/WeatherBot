@@ -11,7 +11,7 @@ bot.start((ctx) => {
 	ctx.reply(
 		'Пожалуйста, отправьте мне свою геолокацию:')
 
-	Markup.keyboard([Markup.button.locationRequest('Отправить геолокацию')])
+	Markup.keyboard([Markup.button.locationRequest('Узнать погоду')])
 		.oneTime()
 		.resize()
 	
